@@ -1,1 +1,84 @@
+🔹 String Coding Questions (1–20)
+	1. Reverse a String without using inbuilt methods
+	2. Check if a String is palindrome
+	3. Count occurrences of each character in a String
+	4. Find first non-repeated character in a String
+	5. Remove duplicate characters from a String
+	6. Find duplicate characters in a String
+	7. Check if two Strings are anagrams
+	8. Reverse words in a sentence
+	9. Count vowels and consonants in a String
+	10. Find longest substring without repeating characters
+	11. Replace each character with its frequency
+	12. Check if String contains only digits
+	13. Convert String to integer without Integer.parseInt()
+	14. Find maximum occurring character in a String
+	15. Find minimum occurring character in a String
+	16. Capitalize first letter of each word
+	17. Remove special characters from String
+	18. Check if one String is rotation of another
+	19. Find all permutations of a String
+	20. Compress a String (aaabb → a3b2)
 
+🔹 Array Coding Questions (21–40)
+	21. Find largest and smallest element in array
+	22. Find second largest element in array
+	23. Reverse an array in place
+	24. Remove duplicates from array
+	25. Sort array without using sort method
+	26. Find missing number in array (1–N)
+	27. Find duplicate elements in array
+	28. Move all zeros to end of array
+	29. Find intersection of two arrays
+	30. Find union of two arrays
+	31. Find pair with given sum
+	32. Rotate array by N positions
+	33. Find maximum subarray sum (Kadane’s Algorithm)
+	34. Check if array is sorted
+	35. Merge two sorted arrays
+	36. Find frequency of elements in array
+	37. Split array into even and odd arrays
+	38. Find common elements in three arrays
+	39. Find longest increasing subsequence (basic)
+	40. Find leader elements in array
+
+🔹 Number-Based Coding Questions (41–55)
+	41. Check if number is palindrome
+	42. Check if number is prime
+	43. Print Fibonacci series
+	44. Find factorial of a number
+	45. Reverse a number
+	46. Check Armstrong number
+	47. Find GCD of two numbers
+	48. Find LCM of two numbers
+	49. Count digits in a number
+	50. Swap two numbers without third variable
+	51. Find sum of digits
+	52. Check perfect number
+	53. Print prime numbers between 1–100
+	54. Convert decimal to binary
+	55. Find power of number without Math.pow()
+
+🔹 Collections Coding Questions (56–65)
+	56. Count frequency of elements in List
+	57. Remove duplicates from List using Set
+	58. Find duplicate elements in List
+	59. Find first non-repeating element in List
+	60. Sort Map by keys
+	61. Sort Map by values
+	62. Count word occurrences in a sentence using Map
+	63. Merge two Maps
+	64. Find common keys between two Maps
+	65. Convert List to Map
+
+🔹 Java 8 Coding Questions (66–75)
+	66. Filter even numbers from List using streams
+	67. Find maximum number using streams
+	68. Find minimum number using streams
+	69. Find duplicate elements using streams
+	70. Sort List in reverse order using streams
+	71. Convert List of Strings to uppercase
+	72. Count elements greater than given value
+	73. Find first non-repeated character using streams
+	74. Group Strings by length using streams
+Find second highest number using streams
