@@ -8,10 +8,10 @@
 	7. Check if two Strings are anagrams
 	8. Reverse words in a sentence
 	9. Count vowels and consonants in a String
-	10. Find longest substring without repeating characters
+	10. Find longest substring without repeating characters L
 	11. Replace each character with its frequency
 	12. Check if String contains only digits
-	13. Convert String to integer without Integer.parseInt()
+	13. Convert String to integer without Integer.parseInt() L
 	14. Find maximum occurring character in a String
 	15. Find minimum occurring character in a String
 	16. Capitalize first letter of each word
