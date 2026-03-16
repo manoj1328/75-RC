@@ -2,8 +2,8 @@ package rc.coding.RC75.programs.string;
 
 import org.springframework.beans.factory.BeanNotOfRequiredTypeException;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class FindMaximumOccurringCharacterInString {
 
@@ -30,8 +30,20 @@ public class FindMaximumOccurringCharacterInString {
     }
 
     public static void main(String[] args) {
-        String s ="swwwwwiiiiiiiiiiiiiisswss";
-        System.out.println(maxChar(s));
+        String ss ="swwwwwiiiiiiiiiiiiiisswss";
+       // System.out.println(maxChar(s));
+
+        List<String> list = new ArrayList<String>();
+        list.add("Manoj");
+        list.add("Sridharan");
+        list.add("Manoj");
+        list.add("Sridharan");
+        list.add("Sridharan");
+
+        int maxStrings = list.stream()
+                        .mapToInt(String::length).max().getAsInt();
+
+        System.out.println(maxStrings);
 
     }
 }
