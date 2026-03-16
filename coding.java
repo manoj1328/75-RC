@@ -645,136 +645,88 @@
         Even numbers are numbers divisible by 2 The program should remove all odd numbers and keep only the even ones.
 
     2.  Convert Numbers in List to Their Squares
-
-Question:
-Given a list of integers, convert every number to its square.
-
-Input
-
-[1, 2, 3, 4]
-
-Output
-
-[1, 4, 9, 16]
-
-Explanation
-Each number should be multiplied by itself.
-
-3. Square Even Numbers from List
-
-Question:
-From a list of integers, filter even numbers and then convert them to their squares.
-
-Input
-
-[1, 2, 3, 4, 5, 6]
-
-Output
-
-[4, 16, 36]
-
-Explanation
-First filter even numbers, then square each one.
-
-4. Find First Number Greater Than 10
-
-Question:
-Find the first number greater than 10 in a list.
-
+        Question:
+        Given a list of integers, convert every number to its square.
         Input
+        [1, 2, 3, 4]
+        Output
+        [1, 4, 9, 16]
+        Explanation
+        Each number should be multiplied by itself.
 
-[3, 7, 9, 11, 15]
-
-Output
-
-11
-
-Explanation
-The program scans the list and returns the first number that satisfies the condition.
-
-        5. Count Numbers Greater Than 5
-
-Question:
-Count how many numbers in the list are greater than 5.
-
-Input
-
-[2, 5, 6, 8, 3, 9]
-
-Output
-
-3
-
-Explanation
-Numbers greater than 5 are: 6, 8, 9.
-
-        6. Find Sum/Product of All Numbers
-
-Question:
-Calculate the sum and product of all numbers in the list.
-
+    3.  Square Even Numbers from List
+        Question:
+        From a list of integers, filter even numbers and then convert them to their squares.
         Input
+        [1, 2, 3, 4, 5, 6]
+        Output
+        [4, 16, 36]
+        Explanation
+        First filter even numbers, then square each one.
 
-[1, 2, 3, 4]
-
-Output
-
-        Sum = 10
-Product = 24
-
-Explanation
-        Sum = 1+2+3+4
-Product = 1×2×3×4.
-
-        7. Find Sum of Even Numbers
-
-Question:
-Find the sum of all even numbers in a list.
-
-Input
-
-[1, 2, 3, 4, 5, 6]
-
-Output
-
-12
-
-Explanation
-Even numbers are 2, 4, 6 → sum = 12.
-
-        8. Find Maximum Number in List
-
-Question:
-Find the maximum value in a list.
-
+    4.  Find First Number Greater Than 10
+        Question:
+        Find the first number greater than 10 in a list.
         Input
+        [3, 7, 9, 11, 15]
+        Output
+        11
+        Explanation
+        The program scans the list and returns the first number that satisfies the condition.
 
-[5, 9, 2, 11, 7]
+        5.  Count Numbers Greater Than 5
+            Question:
+            Count how many numbers in the list are greater than 5.
+            Input
+            [2, 5, 6, 8, 3, 9]
+            Output
+            3
+            Explanation
+            Numbers greater than 5 are: 6, 8, 9.
 
-Output
+        6.  Find Sum/Product of All Numbers
+            Question:
+            Calculate the sum and product of all numbers in the list.
+            Input
+            [1, 2, 3, 4]
+            Output
+            Sum = 10
+            Product = 24
+            Explanation
+            Sum = 1+2+3+4
+            Product = 1×2×3×4.
 
-11
+        7.  Find Sum of Even Numbers 1, 2, 3, 4, 5, 6
+            Question:
+            Find the sum of all even numbers in a list.
+            Input
+            [1, 2, 3, 4, 5, 6]
+            Output
+            12
+            Explanation
+            Even numbers are 2, 4, 6 → sum = 12.
 
-Explanation
-The maximum number is the largest element.
+        8.  Find Maximum Number in List
+            Question:
+            Find the maximum value in a list.
+            Input
+            [5, 9, 2, 11, 7]
+            Output
+            11
+            Explanation
+            The maximum number is the largest element.
 
-9. Sum of Squares of Even Numbers
-
-Question:
-Find the sum of squares of all even numbers.
-
-        Input
-
-[1, 2, 3, 4]
-
-Output
-
-20
-
-Explanation
-Even numbers → 2, 4
-Squares → 4, 16
-Sum → 20.
+        9.  Sum of Squares of Even Numbers
+            Question:
+            Find the sum of squares of all even numbers.
+            Input
+            [1, 2, 3, 4]
+            Output
+            20
+            Explanation
+            Even numbers → 2, 4
+            Squares → 4, 16
+            Sum → 20.
 
         10. Find Distinct Elements (Remove Duplicates)
 
