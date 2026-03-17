@@ -729,54 +729,36 @@
             Sum → 20.
 
         10. Find Distinct Elements (Remove Duplicates)
-
-Question:
-Remove duplicate elements from a list.
-
-Input
-
-[1, 2, 2, 3, 4, 4, 5]
-
-Output
-
-[1, 2, 3, 4, 5]
-
-Explanation
-Each element should appear only once.
+            Question:
+            Remove duplicate elements from a list.
+            Input
+            [1, 2, 2, 3, 4, 4, 5]
+            Output
+            [1, 2, 3, 4, 5]
+            Explanation
+            Each element should appear only once.
 
         11. Find Average of Numbers
+            Question:
+            Calculate the average of numbers in a list.
+            Input
+            [10, 20, 30]
+            Output
+            20
+            Explanation
+            Average = (10+20+30)/3.
 
-Question:
-Calculate the average of numbers in a list.
-
-Input
-
-[10, 20, 30]
-
-Output
-
-20
-
-Explanation
-        Average = (10+20+30)/3.
-
-12. Sort List Ascending and Descending
-
-Question:
-Sort integers in ascending and descending order.
-
-        Input
-
-[5, 1, 8, 3]
-
-Output
-
-Ascending: [1, 3, 5, 8]
-Descending: [8, 5, 3, 1]
-
-Explanation
-        Ascending = smallest to largest.
-Descending = largest to smallest.
+        12. Sort List Ascending and Descending
+            Question:
+            Sort integers in ascending and descending order.
+            Input
+            [5, 1, 8, 3]
+            Output
+            Ascending: [1, 3, 5, 8]
+            Descending: [8, 5, 3, 1]
+            Explanation
+            Ascending = smallest to largest.
+            Descending = largest to smallest.
 
 13. Count Strings Starting with Specific Letter
 

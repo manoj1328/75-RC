@@ -6,7 +6,7 @@ import java.util.stream.Stream;
 
 public class StreamsCodeSnipet {
     public static void main(String[] args) {
-        sumOfSquaresOfEvenNumbers();
+        SortListAscendingOrDescending();
     }
 
     //1. Filter Even Numbers from a List
@@ -73,6 +73,33 @@ public class StreamsCodeSnipet {
         Integer reduce = list.stream().filter(x -> x % 2 == 0).map(y -> y*y).reduce(0, Integer::sum);
         System.out.println(reduce);
     }
+
+    //10. Remove Duplicates
+    private static void removeDuplicates() {
+        List<Integer> list = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
+        //Set<Integer> set = new HashSet<>();
+        //List<Integer> collect = list.stream().filter(x -> set.add(x)).collect(Collectors.toList());
+        List<Integer> collect1 = list.stream().distinct().collect(Collectors.toList());
+        collect1.add(10);
+        System.out.println(collect1);
+    }
+
+    //11. Find Average of Numbers
+    private static void findAverageNumbers() {
+        List<Integer> list = Arrays.asList(10, 20, 30);
+        double average = list.stream().mapToInt(x -> x.intValue()).average().orElse(0.0);
+        System.out.println(average);
+    }
+
+    //12. Sort List Ascending and Descending
+    private static void SortListAscendingOrDescending() {
+        List<Integer> list = Arrays.asList(5, 1, 8, 3);
+        List<Integer> list1 = list.stream().sorted().toList(); // asending order
+        List<Integer> list2 = list.stream().sorted(Comparator.reverseOrder()).toList();// decendingorder
+        System.out.println(list1);
+        System.out.println(list2);
+    }
+
 
 
 
