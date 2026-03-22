@@ -727,7 +727,7 @@
             Even numbers → 2, 4
             Squares → 4, 16
             Sum → 20.
-
+--------------------------------------------------------------------------------------------------
         10. Find Distinct Elements (Remove Duplicates)
             Question:
             Remove duplicate elements from a list.
@@ -760,210 +760,141 @@
             Ascending = smallest to largest.
             Descending = largest to smallest.
 
-13. Count Strings Starting with Specific Letter
-
-Question:
-Count how many strings start with a given letter.
-
-        Input
-
-["Apple", "Banana", "Avocado", "Mango"]
-Letter: A
-
-        Output
-
-2
-
-Explanation
-Apple and Avocado start with A.
+        13. Count Strings Starting with Specific Letter
+            Question:
+            Count how many strings start with a given letter.
+            Input
+            ["Apple", "Banana", "Avocado", "Mango"]
+            Letter: A
+            Output
+            2
+            Explanation
+            Apple and Avocado start with A.
 
         14. Join Strings into Comma-Separated String
+            Question:
+            Join all strings into one comma-separated string.
+            Input
+            ["Java", "Python", "C++"]
+            Output
+            Java,Python,C++
+            Explanation
+            Combine all strings with commas between them.
 
-Question:
-Join all strings into one comma-separated string.
-
-Input
-
-["Java", "Python", "C++"]
-
-Output
-
-Java,Python,C++
-
-Explanation
-Combine all strings with commas between them.
-
-15. Check if All Elements Are Positive
-
-Question:
-Check whether every number in the list is positive.
-
-        Input
-
-[2, 5, 7, 9]
-
-Output
-
-true
-
-Explanation
-All numbers are greater than zero.
+        15. Check if All Elements Are Positive
+            Question:
+            Check whether every number in the list is positive.
+            Input
+            [2, 5, 7, 9]
+            Output
+            true
+            Explanation
+            All numbers are greater than zero.
 
         16. Check if Any Number Divisible by 3
-
-Question:
-Check whether any number is divisible by 3.
-
-Input
-
-[2, 4, 7, 9]
-
-Output
-
-true
-
-Explanation
-9 is divisible by 3.
+            Question:
+            Check whether any number is divisible by 3.
+            Input
+            [2, 4, 7, 9]
+            Output
+            true
+            Explanation
+            9 is divisible by 3.
 
         17. Flatten List of Lists
-
-Question:
-Convert a list of lists into a single list.
-
-        Input
-
-[[1,2],[3,4],[5,6]]
-
-Output
-
-[1,2,3,4,5,6]
-
-Explanation
-Merge all nested lists into one.
+            Question:
+            Convert a list of lists into a single list.
+            Input
+            [[1,2],[3,4],[5,6]]
+            Output
+            [1,2,3,4,5,6]
+            Explanation
+            Merge all nested lists into one.
 
         18. Find First Non-Empty String
-
-Question:
-Find the first string that is not empty.
-
-Input
-
-["", "", "Hello", "World"]
-
-Output
-
-        Hello
-
-Explanation
-Skip empty strings and return the first valid string.
+            Question:
+            Find the first string that is not empty.
+            Input
+            ["", "", "Hello", "World"]
+            Output
+            Hello
+            Explanation
+            Skip empty strings and return the first valid string.
 
         19. Find Second Highest Number
-
-Question:
-Find the second highest number in the list.
-
-Input
-
-[5, 8, 12, 3, 10]
-
-Output
-
-10
-
-Explanation
-The highest is 12; second highest is 10.
-
+            Question:
+            Find the second highest number in the list.
+            Input
+            [5, 8, 12, 3, 10]
+            Output
+            10
+            Explanation
+            The highest is 12; second highest is 10.
+--------------------------------------------------------------------------------------------
         20. Sort Employees by Salary
+            Question:
+            Sort employees based on salary.
+            Input
+            Employee(name,salary)
+            John 50000
+            Alice 70000
+            Bob 40000
+            Output
+            Bob 40000
+            John 50000
+            Alice 70000
+            Explanation
+            Employees should be sorted by salary value.
 
-Question:
-Sort employees based on salary.
+        21. Average Age of Person Objects
+            Question:
+            Find the average age of persons.
+            Input
+            Person(name, age)
+            A 20
+            B 30
+            C 40
+            Output
+            30
+            Explanation
+            Average = (20+30+40)/3.
 
-        Input
+        22. Partition Numbers into Even and Odd
+            Question:
+            Split numbers into even and odd groups.
+            Input
+            [1,2,3,4,5,6]
+            Output
+            Even: [2,4,6]
+            Odd: [1,3,5]
+            Explanation
+            Numbers are categorized by parity.
 
-Employee(name,salary)
-John 50000
-Alice 70000
-Bob 40000
-
-Output
-
-Bob 40000
-John 50000
-Alice 70000
-
-Explanation
-Employees should be sorted by salary value.
-
-21. Average Age of Person Objects
-
-Question:
-Find the average age of persons.
-
-Input
-
-Person(name, age)
-A 20
-B 30
-C 40
-
-Output
-
-30
-
-Explanation
-        Average = (20+30+40)/3.
-
-22. Partition Numbers into Even and Odd
-
-Question:
-Split numbers into even and odd groups.
-
-        Input
-
-[1,2,3,4,5,6]
-
-Output
-
-Even: [2,4,6]
-Odd: [1,3,5]
-
-Explanation
-Numbers are categorized by parity.
-
-23. Count Occurrences of Each Element
-
-Question:
-Count how many times each element appears.
-
-        Input
-
-[apple, banana, apple, orange, banana]
-
-Output
-
-        apple=2
-banana=2
-orange=1
-
-Explanation
-Each element’s frequency is calculated.
+        23. Count Occurrences of Each Element
+            Question:
+            Count how many times each element appears.
+            Input
+            [apple, banana, apple, orange, banana]
+            Output
+            apple=2
+            banana=2
+            orange=1
+            Explanation
+            Each element’s frequency is calculated.
 
         24. Group Employees by Department and Average Salary
+            Input
+            Employee(name, dept, salary)
+            A IT 50000
+            B IT 70000
+            C HR 40000
+            Output
+            IT avg=60000
+            HR avg=40000
+            Explanation
+            Employees are grouped by department and average salary computed.
 
-        Input
-
-Employee(name, dept, salary)
-A IT 50000
-B IT 70000
-C HR 40000
-
-Output
-
-IT avg=60000
-HR avg=40000
-
-Explanation
-Employees are grouped by department and average salary computed.
+        --------------------------------------------------------------------------------------------------------------------------
 
 25. Highest Paid Employee in Each Department
 
