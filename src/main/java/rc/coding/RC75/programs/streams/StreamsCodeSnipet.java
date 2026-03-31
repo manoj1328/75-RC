@@ -12,6 +12,8 @@ import java.util.stream.Stream;
 public class StreamsCodeSnipet {
     public static void main(String[] args) {
         groupEmployeesByDepartmentAndAverageSalary();
+        String s =" test";
+        s.split()
     }
 
     //1. Filter Even Numbers from a List
@@ -92,7 +94,7 @@ public class StreamsCodeSnipet {
     //11. Find Average of Numbers
     private static void findAverageNumbers() {
         List<Integer> list = Arrays.asList(10, 20, 30);
-        double average = list.stream().mapToInt(x -> x.intValue()).average().orElse(0.0);
+        double average = list.stream().mapToInt(x -> x).average().orElse(0.0);
         System.out.println(average);
     }
 
