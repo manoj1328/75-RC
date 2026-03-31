@@ -11,9 +11,7 @@ import java.util.stream.Stream;
 
 public class StreamsCodeSnipet {
     public static void main(String[] args) {
-        groupEmployeesByDepartmentAndAverageSalary();
-        String s =" test";
-        s.split()
+        departmentsWithMoreThan2Employees();
     }
 
     //1. Filter Even Numbers from a List
@@ -203,6 +201,29 @@ public class StreamsCodeSnipet {
         System.out.println(collect);
     }
 
+    // 25. Highest Paid Employee in Each Department
+    private static void  highestPaidEmployeeInEachDepartment() {
+        List<EmployeDept> list = Arrays.asList(new EmployeDept(103,"f",10, "IT"),
+                new EmployeDept(103,"d",10, "IT"),
+                new EmployeDept(103,"Alice",20, "IT"),
+                new EmployeDept(103,"s",30, "IT")
+        );
+        Map<String, Optional<EmployeDept>> collect = list.stream().collect(Collectors.groupingBy(x -> x.getDepartment(), Collectors.maxBy(Comparator.comparing(x -> x.getSalary()))));
+        System.out.println(collect);
+    }
+
+    // 26. Departments with More Than 2 Employees
+    private static void  departmentsWithMoreThan2Employees() {
+        List<EmployeDept> list = Arrays.asList(new EmployeDept(103,"f",10, "IT"),
+                new EmployeDept(103,"d",10, "ECE"),
+                new EmployeDept(103,"Alice",20, "IT"),
+                new EmployeDept(103,"s",30, "IT")
+        );
+        List<String> collect = list.stream().collect(Collectors.groupingBy(x -> x.getDepartment(), Collectors.counting())).entrySet().stream().filter(x -> x.getValue() > 2).map(Map.Entry::getKey).collect(Collectors.toList());
+        System.out.println(collect);
+        Map<Integer,String> t = new HashMap<>();
+        t.s
+    }
 
 
 

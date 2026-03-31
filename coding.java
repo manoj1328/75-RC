@@ -896,24 +896,18 @@
 
         --------------------------------------------------------------------------------------------------------------------------
 
-25. Highest Paid Employee in Each Department
+        25. Highest Paid Employee in Each Department
+            Input
+            Employees with department and salary
+            Output
+            IT → Employee X
+            HR → Employee Y
+            Explanation
+            Find the employee with the highest salary per department.
 
-Input
-
-Employees with department and salary
-
-        Output
-
-IT → Employee X
-HR → Employee Y
-
-Explanation
-Find the employee with the highest salary per department.
-
-26. Departments with More Than 2 Employees
-
-        Explanation
-Filter departments where employee count exceeds 2.
+        26. Departments with More Than 2 Employees
+            Explanation
+            Filter departments where employee count exceeds 2
 
         27. Department with Highest Average Salary
 
