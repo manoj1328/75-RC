@@ -910,35 +910,24 @@
             Filter departments where employee count exceeds 2
 
         27. Department with Highest Average Salary
-
-        Explanation
-Compute average salary for each department and return the highest.
+            Explanation
+            Compute average salary for each department and return the highest.
 
         28. Most Frequent Character in String
+            Input
+            programming
+            Output
+            r
+            Explanation
+            'r' appears most frequently.
 
-        Input
-
-programming
-
-        Output
-
-r
-
-        Explanation
-'r' appears most frequently.
-
-29. First Non-Repeating Character
-
-Input
-
-        swiss
-
-Output
-
-        w
-
-Explanation
-'w' appears only once and first among such characters.
+        29. First Non-Repeating Character
+            Input
+            swiss
+            Output
+            w
+            Explanation
+            'w' appears only once and first among such characters.
 
         30. Day with Highest Total Spend (Transactions)
 

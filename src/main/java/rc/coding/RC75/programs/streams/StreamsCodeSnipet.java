@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 public class StreamsCodeSnipet {
     public static void main(String[] args) {
-        departmentsWithMoreThan2Employees();
+        firstNonRepeatingCharacter();
     }
 
     //1. Filter Even Numbers from a List
@@ -221,8 +221,34 @@ public class StreamsCodeSnipet {
         );
         List<String> collect = list.stream().collect(Collectors.groupingBy(x -> x.getDepartment(), Collectors.counting())).entrySet().stream().filter(x -> x.getValue() > 2).map(Map.Entry::getKey).collect(Collectors.toList());
         System.out.println(collect);
-        Map<Integer,String> t = new HashMap<>();
-        t.s
+    }
+
+    //  27. Department with Highest Average Salary
+    private static void  departmentWithHighestAverageSalary() {
+        List<EmployeDept> list = Arrays.asList(new EmployeDept(103,"f",10, "IT"),
+                new EmployeDept(103,"d",10, "ECE"),
+                new EmployeDept(103,"Alice",20, "IT"),
+                new EmployeDept(103,"s",30, "IT")
+        );
+        Optional<Double> v = list.stream().collect(Collectors.groupingBy(EmployeDept::getDepartment, Collectors.averagingDouble(EmployeDept::getSalary))).entrySet().stream().max(Map.Entry.comparingByValue()).map(Map.Entry::getValue);
+
+        System.out.println(v.get());
+    }
+
+    //  28. Most Frequent Character in String
+    private static void  mostFrequentCharacterInString() {
+        String s = "banana";
+        Character c = s.chars().mapToObj(x -> (char) x).collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().max(Map.Entry.comparingByValue()).map(Map.Entry::getKey).orElseThrow();
+        System.out.println(c);
+    }
+
+    //  29. First Non-Repeating Character
+    private static void  firstNonRepeatingCharacter() {
+        String s = "swissw";
+
+        Optional<Character> first = s.chars().mapToObj(x -> (char) x).collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())).entrySet().stream()
+                .filter(y -> y.getValue() == 1).map(Map.Entry::getKey).findFirst();
+        System.out.println(first.get());
     }
 
 
